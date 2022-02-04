@@ -1,0 +1,18 @@
+{
+  "name": "scheduler-howto-nodejs",
+  "version": "1.0.0",
+  "description": "My scheduler backend",
+  "main": "server.js",
+  "author": "Me",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "date-format-lite": "^17.7.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "mysql": "^2.18.1"
+  }
+}
